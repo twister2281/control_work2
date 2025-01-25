@@ -64,9 +64,6 @@ class Circle extends Shape {
 Упрощение поддержки и модификации программ.
 Пример:
 
-java
-Копировать
-Редактировать
 class Animal {
     void eat() {
         System.out.println("This animal eats food.");
