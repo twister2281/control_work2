@@ -24,12 +24,10 @@ class SingleRoom extends Room {
         this.hasTV = hasTV;
     }
 
-    // Дополнительный метод
     public String enjoyMiniBar() {
         return hasMiniBar ? "Наслаждайся мини-баром" : "У комнаты нет мини-бара соре.";
     }
 
-    // Реализация абстрактных методов
     @Override
     public double calculateTotalCost(int nights) {
         return getBasePrice() * nights;
